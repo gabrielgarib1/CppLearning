@@ -20,9 +20,11 @@ int main()
       //    break;
       
    }
-   int i;
+   
+   int i=0;
    cout<<"While loop now!\n";
-   while(i<6){
+   while(i<6)
+   {
       cout<<i++<<'\n';
       if (i == 4)
          continue;
